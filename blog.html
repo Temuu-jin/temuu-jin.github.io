@@ -3,25 +3,57 @@
 <head>
   <title>Your Name - Blog</title>
   <!-- Add your CSS link here -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Navigation Bar -->
-  <nav>
-    <!-- Navigation links (same as in the home page) -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Content & Projects</a></li>
-        <li><a href="resume.html">Resume & About Me</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact & Social Media</a></li>
-        <li><a href="ideas.html">Random Ideas</a></li>
-      </ul>
-  </nav>
+  <label class="hamburger-menu">
+    <input type="checkbox">
+  </label>
+  <aside class = "sidebar">
+    <nav>
+      <div><a href="index.html">Home</a></div>
+      <div><a href="projects.html">Content & Projects</a></div>
+      <div><a href="resume.html">Resume & About Me</a></div>
+      <div><a href="blog.html">Blog</a></duv>
+      <div><a href="contact.html">Contact & Social Media</a></div>
+      <div><a href="ideas.html">Random Ideas</a></div>
+    </nav>
+  </aside>
   
   <!-- Blog Content -->
-  <section>
-    <h1>Blog</h1>
-    <p>Write and share your blog posts here.</p>
+  <div class = "container">
+  <section class="blog-post">
+    <h2>Lorem Ipsum Title 1</h2>
+    <p class="date">August 2, 2023</p>
+    <h3>Subtitle</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vivamus tincidunt turpis eu facilisis facilisis. Phasellus
+      ultrices sem at ex facilisis, ac cursus justo interdum.
+      Donec faucibus tellus eu mauris consectetur, vitae
+      rhoncus lorem convallis. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis
+      egestas. Etiam a est eu nulla euismod interdum a eu mi.
+      Vestibulum nec nunc id lectus ullamcorper blandit.
+    </p>
   </section>
+
+  <section class="blog-post">
+    <h2>Lorem Ipsum Title 2</h2>
+    <p class="date">August 3, 2023</p>
+    <h3>Subtitle</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vivamus tincidunt turpis eu facilisis facilisis. Phasellus
+      ultrices sem at ex facilisis, ac cursus justo interdum.
+      Donec faucibus tellus eu mauris consectetur, vitae
+      rhoncus lorem convallis. Pellentesque habitant morbi
+      tristique senectus et netus et malesuada fames ac turpis
+      egestas. Etiam a est eu nulla euismod interdum a eu mi.
+      Vestibulum nec nunc id lectus ullamcorper blandit.
+    </p>
+  </section>
+</div>
 </body>
 </html>

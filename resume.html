@@ -3,21 +3,24 @@
 <head>
   <title>Temucin - Resume & About Me</title>
   <!-- Add your CSS link here -->
-  <link rel="stylesheet" href="resume.css">
+  
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Navigation Bar -->
-  <nav>
-    <!-- Navigation links (same as in the home page) -->
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Content & Projects</a></li>
-        <li><a href="resume.html">Resume & About Me</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact & Social Media</a></li>
-        <li><a href="ideas.html">Random Ideas</a></li>
-      </ul>
-  </nav>
+  <label class="hamburger-menu">
+    <input type="checkbox">
+  </label>
+  <aside class = "sidebar">
+    <nav>
+      <div><a href="index.html">Home</a></div>
+      <div><a href="projects.html">Content & Projects</a></div>
+      <div><a href="resume.html">Resume & About Me</a></div>
+      <div><a href="blog.html">Blog</a></duv>
+      <div><a href="contact.html">Contact & Social Media</a></div>
+      <div><a href="ideas.html">Random Ideas</a></div>
+    </nav>
+  </aside>
   
   <!-- Resume & About Me Content -->
   <div class="container">
@@ -33,6 +36,7 @@
         <p class="info">Graduated in September 2021</p>
       </div>
     </div>
+
     <div class="resume-section">
       <h2>Work Experience</h2>
       <div class="section-item">
