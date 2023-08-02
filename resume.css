@@ -1,3 +1,33 @@
+/* styles.css */
+
+/* Reset default list styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+    background-color: #333; /* Set the background color of the navigation bar */
+  }
+  
+  nav li {
+    margin: 0 10px; /* Add some spacing between the navigation links */
+  }
+  
+  nav li a {
+    color: #fff; /* Set the color of the links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Add some padding to make the links clickable */
+  }
+  
+  nav li a:hover {
+    background-color: #555; /* Change the background color on hover for visual feedback */
+  }
+  
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
