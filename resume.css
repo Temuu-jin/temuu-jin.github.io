@@ -1,0 +1,90 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    margin: 10px 0;
+  }
+  
+  /* Resume Styles */
+  .resume-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .resume-header h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .resume-header h2 {
+    font-size: 24px;
+    font-weight: normal;
+  }
+  
+  .resume-section {
+    margin-bottom: 40px;
+  }
+  
+  .resume-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .resume-section p {
+    margin: 0;
+  }
+  
+  .resume-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .resume-section li {
+    margin-bottom: 5px;
+  }
+  
+  /* Add any additional styling for specific resume elements here */
+  
+  /* Example styles for education and work experience sections */
+  .resume-section .section-item {
+    margin-bottom: 15px;
+  }
+  
+  .resume-section .section-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .resume-section .section-item .info {
+    font-size: 16px;
+  }
+  
+  /* Media Query for smaller screens (optional) */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    
+    .resume-header h1 {
+      font-size: 28px;
+    }
+    
+    .resume-header h2 {
+      font-size: 20px;
+    }
+  }
+  
